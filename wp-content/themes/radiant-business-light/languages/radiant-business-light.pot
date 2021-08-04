@@ -1,0 +1,125 @@
+# Copyright (C) {2021} Firefly Themes
+msgid ""
+msgstr ""
+"Project-Id-Version: Radiant Business Light 1.0.1\n"
+"Report-Msgid-Bugs-To: https://fireflythemes.com/support/\n"
+"POT-Creation-Date: 2021-07-24 06:40:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Firefly Themes <info@fireflythemes.com>\n"
+"Language-Team: Firefly Themes <info@fireflythemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:74
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:76
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/radiant-business-header-options.php:40
+msgid "Header Style"
+msgstr ""
+
+#: inc/customizer/radiant-business-header-options.php:45
+msgid "Header Style Default"
+msgstr ""
+
+#: inc/customizer/radiant-business-header-options.php:49
+msgid "Header Style - Parent Theme"
+msgstr ""
+
+#: inc/customizer/radiant-business-header-options.php:60
+msgid "Header Top Color"
+msgstr ""
+
+#: inc/customizer/radiant-business-header-options.php:63
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer/radiant-business-header-options.php:64
+msgid "Light"
+msgstr ""
+
+#: inc/widgets/social-menu.php:25
+msgid "Add Social Menu to sidebar"
+msgstr ""
+
+#: inc/widgets/social-menu.php:29
+msgid "FF: Social Menu"
+msgstr ""
+
+#: inc/widgets/social-menu.php:148
+#. translators: %s: URL to create a new menu.
+msgid "No menu available"
+msgstr ""
+
+#: inc/widgets/social-menu.php:153
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/social-menu.php:157
+msgid "Select Menu:"
+msgstr ""
+
+#: inc/widgets/social-menu.php:159
+msgid "- Select -"
+msgstr ""
+
+#: inc/widgets/social-menu.php:169
+msgid "Edit Menu"
+msgstr ""
+
+#: template-parts/header/header-five.php:44
+#: template-parts/header/header-one.php:45
+msgid "Social Links Menu"
+msgstr ""
+
+#: template-parts/header/header-five.php:98
+msgid "Have any Questions?"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Radiant Business Light"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://fireflythemes.com/themes/radiant-business-light/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a child theme of Radiant Business. This theme gives you light "
+"version of the parent theme with all the features from parent theme plus "
+"second header to suite light skin, different style for featured content, "
+"footer fourth widget area, social widget and so on. Visit "
+"https://fireflythemes.com/support for support, "
+"https://fireflythemes.com/documentation/radiant-business-light for theme "
+"documentation and https://demo.fireflythemes.com/radiant-business for demo."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "FireFly Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://fireflythemes.com/"
+msgstr ""

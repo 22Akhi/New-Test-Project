@@ -1,0 +1,359 @@
+/*
+Theme Name: Radiant Business Light
+Theme URI: https://fireflythemes.com/themes/radiant-business-light/
+Author: FireFly Themes
+Author URI: https://fireflythemes.com/
+Description: This is a child theme of Radiant Business. This theme gives you light version of the parent theme with all the features from parent theme plus second header to suite light skin, different style for featured content, footer fourth widget area, social widget and so on. Visit https://fireflythemes.com/support for support, https://fireflythemes.com/documentation/radiant-business-light for theme documentation and https://demo.fireflythemes.com/radiant-business for demo.
+Version: 1.0.1
+Requires at least: 5.5
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GPL-3.0-or-later
+License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3
+Text Domain: radiant-business-light
+Template: radiant-business
+Tags: blog, news, portfolio, grid-layout, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Radiant Business Light Theme WordPress Theme, Copyright 2021 FireFly Themes
+Radiant Business Light Theme is distributed under the terms of the GNU GPL
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Light Color Scheme
+ */
+
+
+#slider-section a.more-link:hover, #slider-section a.more-link:active, #slider-section a.more-link:focus {
+    background: #ffffff!important;
+}
+/*Light version*/
+
+#hero-content-section a.more-link:hover, #hero-content-section a.more-link:focus, #hero-content-section a.more-link:active, #promotional-headline-section a.more-link:hover, #promotional-headline-section a.more-link:focus, #promotional-headline-section a.more-link:active {
+    background: #000;
+    color: #fff;
+}
+
+#masthead,
+body,
+.section,
+.inner-block-shadow,
+.blog.grid article.hentry .hentry-inner,
+.archive.grid article.hentry .hentry-inner,
+.team-section.style-two .thumb-summary-wrap,
+#news-events-section .event-post-wrap,
+#wwd-section .wwd-block-item.ff-grid-3:nth-of-type(even) .wwd-block-wrapper:after,
+#wwd-section .wwd-block-item.ff-grid-3:nth-of-type(odd) .wwd-block-wrapper:after,
+#wwd-section.style-one .wwd-block-item .wwd-block-wrapper:after,
+#wwd-section.style-one .wwd-block-item.ff-grid-3:nth-of-type(even) .wwd-block-wrapper:after,
+.featured-grid-section.style-one .featured-grid-text-content,
+.carousel-enabled .swiper-button-next, .carousel-enabled .swiper-button-prev,
+.single-content-wraper,
+.sidebar .widget,
+#search-container,
+#search-container:after,
+.section-portfolio.style-one .portfolio-content,
+#tabs-nav li a,
+.tab-content,
+.recent-work-filter button,
+#news-events-section .event-thumb:before,
+.section-teams .team-text-wrap,
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product,
+.custom-contact-form,
+.contact-info-wrapper,
+button#map-toggle,
+#counter-section.section.style-two .thumb-summary-wrap,
+.boxed-header #masthead.sticky-enabled.sticky-header,
+#masthead.sticky-enabled.sticky-header, .sticky-enabled.sticky-header,
+.pricing-section .pricing-plan-header,
+#masthead .search-container,#masthead .search-container:after {
+    background: #ffffff;
+}
+#masthead .search-form .search-submit {
+    border-right: 1px solid #d8d8d8;
+}
+
+.even-section,
+.search-toggle,
+.site-header-cart a,
+.search-toggle:visited,
+.site-header-cart a:visited,
+#breadcrumb,
+.entry-date-meta,
+#contact-form-section .contact-info-item i  {
+    background: #f7f7f7;
+}
+#tabs-nav li a i {
+    -webkit-text-stroke: 1px #000;
+}
+
+
+#tabs-nav li a:hover i, #tabs-nav li.active a i{
+ -webkit-text-stroke: 1px #fff;
+}
+#tabs-nav li a {
+    border: none;
+}
+.pricing-plan-title h4 {
+    color: #1f1e1e;
+}
+
+
+/*Color*/
+.section-testimonial .testimonial-wrapper:before{
+    color: #f7f7f7;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea,
+.header-info span {
+    color: #666769;
+}
+
+
+
+h1, h2, h3, h4, h5, h6,
+.search-toggle,
+.site-header-cart a,
+.search-toggle:visited,
+.site-header-cart a:visited,
+#counter-section.section.style-two .counter-section .counter-nos, 
+#counter-section.section.style-two .counter-section .counter-title {
+    color: #1d213e;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="password"],
+.wpcf7 input[type="number"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="range"],
+.wpcf7 input[type="date"],
+.wpcf7 input[type="month"],
+.wpcf7 input[type="week"],
+.wpcf7 input[type="time"],
+.wpcf7 input[type="datetime"],
+.wpcf7 input[type="datetime-local"],
+.wpcf7 input[type="color"],
+.wpcf7 textarea {
+    color: #000;
+    border: 1px solid #e8e8e8;
+    background: #fbfbfb;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+    color: #ecebeb;
+    border: 1px solid #0c97e0;
+}
+select {
+    border: 1px solid #e8e8e8;
+}
+
+#counter-section.section.even-section.style-two::before {
+    background: #ffffff;
+}
+
+a,a:visited,.site-title a,
+.site-title a:visited,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited,
+.main-navigation ul li a,
+.carousel-enabled .swiper-button-next, .carousel-enabled .swiper-button-prev,
+#breadcrumb li a, .bcn-breadctumb > span a,
+.sidebar ul li a, .sidebar ul li a:visited,
+.search-form .search-submit,
+.section-portfolio h3 a, .section-portfolio h3,
+#tabs-nav li a,
+.recent-work-filter button,
+.entry-date-meta,
+.woocommerce ul.products li.product .price,
+button#map-toggle,.overlap-header .main-navigation ul ul li a,
+a.more-link:hover, a.more-link:focus, a.more-link:active
+ {
+    color: #222;
+}
+
+.section .section-subtitle {
+    color: #7b7f86;
+}
+.carousel-enabled .swiper-button-next, 
+.carousel-enabled .swiper-button-prev {
+    box-shadow: 0 0 16px 10px #c1bfbf21;
+}
+.carousel-enabled .swiper-button-next:hover, 
+.carousel-enabled .swiper-button-prev:hover, 
+.carousel-enabled .swiper-button-next:focus, 
+.carousel-enabled .swiper-button-prev:focus, 
+.carousel-enabled .swiper-button-next:active, 
+.carousel-enabled .swiper-button-prev:active {
+    background: #717171;
+    color:#fff;
+}
+
+#counter-section.section.style-two::before {
+    background: #f7f7f7;
+}
+
+.pricing-section .pricing-plan-header {
+    border-bottom: 1px solid #f1eded;
+}
+
+.section-portfolio.style-one .portfolio-content,
+.section-teams .team-text-wrap,
+.recent-work-filter button {
+    box-shadow: 0 10px 32px 0 rgb(197 192 192 / 40%);
+}
+
+.dark-nav .search-toggle, .dark-nav .search-toggle:visited,
+.dark-nav .cart-contents a, .dark-nav .cart-contents a:visited {
+    color: #fff;
+    background: #222;
+}
+
+.dark-nav .main-navigation ul ul,
+.dark-nav .main-navigation ul ul:before {
+    background: #2f3239;
+}
+.dark-top-header .main-navigation ul li a {
+    color:#fff;
+}
+@media screen and (min-width: 910px){
+    .main-navigation ul ul,.main-navigation ul ul:before {
+        background: #fff;
+
+    }
+
+
+    .main-navigation ul ul a {
+        border-bottom: 1px solid rgb(0 0 0 / 11%);
+    }
+}
+@media screen and (max-width: 909px){
+    .overlap-header .site-title a, 
+    .overlap-header .site-title a:visited {
+        color: #100f0f;
+    }
+}
+select {
+    background: #ffffff;
+}
+#comments {
+    background: #ffffff;
+}
+.site-header-main.boxed-header-wrapper {
+    background: #ffffff;
+}
+.overlap-header .main-navigation ul li a {
+    color: #ffffff;
+    background: inherit;
+}
+
+#breadcrumb li {
+    border-right: 1px solid #dfe0e0;
+
+}
+.featured-image-enabled .featured-background-img:hover h3 a, 
+.featured-image-enabled .featured-background-img:hover h3, 
+.featured-image-enabled .featured-background-img:hover p, 
+.featured-image-enabled .featured-background-img:hover a.more-link,
+.featured-image-enabled.highlighted-item .featured-background-img h3 a, 
+.featured-image-enabled.highlighted-item .featured-background-img h3, 
+.featured-image-enabled.highlighted-item .featured-background-img p, 
+.featured-image-enabled.highlighted-item .featured-background-img a.more-link  {
+    color: #ffff;
+}
+.pricing-plan-title h4 {
+    color: #fff;
+}
+.style-three .featured-image-enabled .featured-background-img h3 a, 
+.style-three .featured-image-enabled .featured-background-img h3, 
+ .style-three  .featured-image-enabled .featured-background-img p {
+    color: #fff;
+}
+.recent-work-filter button:hover {
+    background: #fff;
+}
+.inner-block-shadow,
+.blog.grid article.hentry .hentry-inner,
+.archive.grid article.hentry .hentry-inner,
+.team-section.style-two .thumb-summary-wrap,#news-events-section .event-post-wrap {
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(122,122,122,0.1);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(122,122,122,0.1);
+    -ms-box-shadow: 0px 0px 32px 0px rgba(122,122,122,0.1);
+    -o-box-shadow: 0px 0px 32px 0px rgba(122,122,122,0.1);
+    box-shadow: 0px 0px 32px 0px rgba(122,122,122,0.1);
+
+}
+.section-wwd a.wwd-fonts-icon {
+    background: #ffffff;
+    box-shadow: 0px 10px 32px 0px rgb(144 132 132 / 40%);
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+
+    box-shadow: 0 0 28px #0000001f;
+}
+a.ff-button:hover, button:hover, a.button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, button:focus, a.button:focus, a.ff-button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, a.ff-button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background: #000;
+    color: #fff;
+}
+.main-navigation ul ul {
+    box-shadow: 0 16px 30px #7b6a6a4d;
+}
+
+.page-content p a:hover, .entry-content p a:hover, .entry-summary p a:hover, .widget .textwidget a:hover, .comment-content a:hover, .section p a:hover, .page-content a:hover, .entry-content a:hover, .entry-summary a:hover, .widget .textwidget a:hover, .comment-content a:hover, .page-content p a:focus, .entry-content p a:focus, .entry-summary p a:focus, .widget .textwidget a:focus, .comment-content a:focus, .section p a:focus, .page-content a:focus, .entry-content a:focus, .entry-summary a:focus, .widget .textwidget a:focus, .comment-content a:focus, .page-content p a:active, .entry-content p a:active, .entry-summary p a:active, .widget .textwidget a:active, .comment-content a:active, .section p a:active, .page-content a:active, .entry-content a:active, .entry-summary a:active, .widget .textwidget a:active, .comment-content a:active {
+    color: #0c9089;
+}
+.search-form .search-submit {
+    border-right: 1px solid #e4e4e4;
+}
